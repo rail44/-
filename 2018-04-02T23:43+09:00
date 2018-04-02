@@ -1,0 +1,9 @@
+# squark
+
+* squark crateのpubな要素を減らす
+* handlerのもっとAPI考える
+  + クロージャー内部のAST解析しないと厳しそうではある
+* 配列からchildren組むAPIつくる
+  + macroでchildrenのlenが1の場合は、 `vec![]` を含めたトークン列組めばいけそう
+* チュートリアルっぽいやつ
+* rust toolchainのバージョン制限と、その理由
